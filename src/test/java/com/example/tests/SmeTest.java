@@ -25,7 +25,7 @@ public class SmeTest {
     }
 
     @Test
-    @DisplayName("Проверка заголовка страницы")
+    @DisplayName("Проверка заголовка страницы Малого бизнеса")
     @Severity(NORMAL)
     @Feature("Главная страница малого бизнеса")
     public void checkSMEMainPageTitle() {
