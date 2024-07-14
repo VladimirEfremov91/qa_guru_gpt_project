@@ -27,7 +27,7 @@ public class SmeTest {
     @Test
     @DisplayName("Проверка заголовка страницы")
     @Severity(NORMAL)
-    @Feature("Debit card form")
+    @Feature("Главная страница малого бизнеса")
     public void checkSMEMainPageTitle() {
         open("https://alfabank.ru/sme/");
         String expectedTitle = "Банк для бизнеса — Услуги и решения для среднего и малого бизнеса от \uD83C\uDD70\uFE0F Альфа-Банка";
