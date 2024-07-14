@@ -16,7 +16,7 @@ public class SmeTest {
 
     @BeforeEach
     public void setUp() {
-        Selenide.open("https://alfabank.ru/sme/"); // замените на ваш URL
+        Selenide.open("https://alfabank.ru/sme/");
     }
 
     @AfterEach
