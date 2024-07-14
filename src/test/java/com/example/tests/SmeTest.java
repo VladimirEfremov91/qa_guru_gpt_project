@@ -25,7 +25,7 @@ public class SmeTest {
     }
 
     @Test
-    @DisplayName("Checking warning for required field phone at form")
+    @DisplayName("Проверка заголовка страницы")
     @Severity(NORMAL)
     @Feature("Debit card form")
     public void checkSMEMainPageTitle() {
