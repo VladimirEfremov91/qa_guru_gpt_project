@@ -34,5 +34,4 @@ public class SmeTest {
         String actualTitle = title();
         assertThat(actualTitle).isEqualTo(expectedTitle);
     }
-
 }
