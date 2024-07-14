@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dc62e3-c6f4-4c3b-994a-bd126b022707" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e9dc62e3-c6f4-4c3b-994a-bd126b022707" name="Changes" comment="Добавил картинки" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +179,20 @@
       <option name="presentableId" value="Default" />
       <updated>1720343133163</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавил картинки">
+      <option name="closed" value="true" />
+      <created>1720948257005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720948257005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавил картинки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил картинки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
