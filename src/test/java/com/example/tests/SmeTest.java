@@ -1,7 +1,7 @@
 package com.example.tests;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
+import com.example.utils.config.TestConfiguration;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
 import org.junit.jupiter.api.AfterEach;
@@ -17,16 +17,13 @@ public class SmeTest {
 
     @BeforeEach
     public void setUp() {
-        Configuration.browserSize = "1920x1080";
-        Configuration.timeout = 10000;
-        Configuration.pageLoadStrategy = "eager";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        TestConfiguration.setUp();
         Selenide.open("https://alfabank.ru/sme/");
     }
 
     @AfterEach
     public void tearDown() {
-        Selenide.closeWebDriver();
+        TestConfiguration.tearDown();
     }
 
     @Test

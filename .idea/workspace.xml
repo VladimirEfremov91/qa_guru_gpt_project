@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9dc62e3-c6f4-4c3b-994a-bd126b022707" name="Changes" comment="Добавил картинки" />
+    <list default="true" id="e9dc62e3-c6f4-4c3b-994a-bd126b022707" name="Changes" comment="Проверка на ревью 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/SmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/SmeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,20 +27,35 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sme-3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VladimirEfremov91"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VladimirEfremov91&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VladimirEfremov91/qa_guru_gpt_project.git",
-    "accountId": "198cee0f-4f41-48c1-8073-4fd0df7c4d87"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VladimirEfremov91/qa_guru_gpt_project.git&quot;,
+    &quot;accountId&quot;: &quot;198cee0f-4f41-48c1-8073-4fd0df7c4d87&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;VladimirEfremov91&quot;,
+    &quot;repository&quot;: &quot;qa_guru_gpt_project&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -48,23 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ExampleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideTest.testExample.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideTest.testOpenSMEPage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/scude/IdeaProjects/qa_guru_gpt_project/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ExampleTest.executor": "Run",
+    "Gradle.SelenideTest.executor": "Run",
+    "Gradle.SelenideTest.testExample.executor": "Run",
+    "Gradle.SelenideTest.testOpenSMEPage.executor": "Run",
+    "Gradle.SmeTest.checkSMEMainPageTitle.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/scude/IdeaProjects/qa_guru_gpt_project/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.SelenideTest.testOpenSMEPage">
+}]]></component>
+  <component name="RunManager" selected="Gradle.SmeTest.checkSMEMainPageTitle">
     <configuration name="ExampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -161,11 +181,36 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="SmeTest.checkSMEMainPageTitle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.tests.SmeTest.checkSMEMainPageTitle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SmeTest.checkSMEMainPageTitle" />
         <item itemvalue="Gradle.SelenideTest.testOpenSMEPage" />
-        <item itemvalue="Gradle.SelenideTest" />
         <item itemvalue="Gradle.SelenideTest.testExample" />
+        <item itemvalue="Gradle.SelenideTest" />
         <item itemvalue="Gradle.ExampleTest" />
       </list>
     </recent_temporary>
@@ -187,12 +232,72 @@
       <option name="project" value="LOCAL" />
       <updated>1720948257005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Изменил readme, добавил картинки">
+      <option name="closed" value="true" />
+      <created>1720948573869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720948573869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Проверка на ревью">
+      <option name="closed" value="true" />
+      <created>1720958094313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958094313</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Проверка на ревью 2">
+      <option name="closed" value="true" />
+      <created>1720958207002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958207002</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Проверка на ревью 2">
+      <option name="closed" value="true" />
+      <created>1720958359089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958359089</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Проверка на ревью 3">
+      <option name="closed" value="true" />
+      <created>1720958745000</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958745000</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Проверка на ревью 3">
+      <option name="closed" value="true" />
+      <created>1720960784146</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720960784146</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Проверка на ревью 3">
+      <option name="closed" value="true" />
+      <created>1720960850418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720960850418</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил картинки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил картинки" />
+    <MESSAGE value="Изменил readme, добавил картинки" />
+    <MESSAGE value="Проверка на ревью" />
+    <MESSAGE value="Проверка на ревью 2" />
+    <MESSAGE value="Проверка на ревью 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка на ревью 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
