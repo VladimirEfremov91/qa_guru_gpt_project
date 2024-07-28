@@ -1,5 +1,6 @@
 package com.example.tests;
 
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Severity;
@@ -17,6 +18,10 @@ public class SmeTest {
     @BeforeEach
     public void setUp() {
         Selenide.open("https://alfabank.ru/sme/");
+        Configuration.browserSize = "1920x1080";
+        Configuration.timeout = 10000;
+        Configuration.pageLoadStrategy = "eager";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
     }
 
     @AfterEach
